@@ -56,7 +56,7 @@ function merge(left, right) {
 //3. Given years between 2000 and 2023, console all the leap years in the following
 function years(){
     for(i=1800;i<=2023;i++){
-        if((0==i%4) && (0!=i%100) || (0==i %400)){
+        if(i%4==0){
             console.log(i + "is a leap year")
             
         }
